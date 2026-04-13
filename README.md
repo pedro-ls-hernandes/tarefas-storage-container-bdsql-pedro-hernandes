@@ -33,6 +33,21 @@ npm run dev
 
 A aplicação estará disponível em [http://localhost:3000](http://localhost:3000).
 
+### 5. Container
+Crie os arquivos Dockerfile e .dockerignore
+
+```txt
+Dockerfile
+.dockerignore
+node_modules
+npm-debug.log
+README.md
+.next
+.git
+.env
+.env.*.local
+```
+
 ---
 
 ## ☁️ Parte 2 — Deploy no Google Cloud
@@ -116,6 +131,12 @@ A aplicação precisa de permissões para acessar o Cloud Storage e o Cloud SQL:
 3. Verifique se a tarefa aparece listada na interface
 4. Confirme que o arquivo foi armazenado no bucket acessando **Cloud Storage > seu bucket** no Console
 5. Confirme que o registro foi criado no banco acessando o **Cloud SQL Studio**
+
+---
+
+### Passo 8 — Entrega - Na atividade do Classroom
+1. Envie a URL da aplicação funcionando do Cloud Run
+2. Envie o link do seu repositório de implementação.
 
 ---
 
