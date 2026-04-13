@@ -7,6 +7,7 @@ Uma aplicação web minimalista de gerenciamento de tarefas focada em ambientes 
 ## 🚀 Parte 1 — Execução Local
 
 ### 1. Instalar as dependências
+Realize um **fork** deste repositório, clone ele em sua maquina e realize os passos abaixo:
 
 ```bash
 npm install
